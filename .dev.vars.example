@@ -1,0 +1,6 @@
+# Local secrets for `wrangler dev` — copy to .dev.vars (never commit)
+PINARKIVE_API_KEY=
+
+# Optional overrides (defaults for base URL are in wrangler.jsonc)
+# PINARKIVE_API_BASE_URL=https://api.pinarkive.com/api/v3
+# PINARKIVE_CLUSTER_ID=cl0-global

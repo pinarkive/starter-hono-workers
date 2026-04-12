@@ -1,0 +1,23 @@
+{
+  "name": "starter-hono-workers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "hono": "^4.7.4",
+    "sdk-ts": "npm:@pinarkive/pinarkive-sdk-ts@^3.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250410.0",
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1",
+    "wrangler": "^4.19.0"
+  }
+}
