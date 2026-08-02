@@ -13,7 +13,7 @@
     "sdk-ts": "npm:@pinarkive/pinarkive-sdk-ts@^3.1.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250410.0",
+    "@cloudflare/workers-types": "^5.20260730.1",
     "@eslint/js": "^9.22.0",
     "eslint": "^9.22.0",
     "typescript": "^5.8.2",
