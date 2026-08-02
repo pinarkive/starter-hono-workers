@@ -9,7 +9,7 @@
     "lint": "eslint src --ext .ts"
   },
   "dependencies": {
-    "hono": "^4.7.4",
+    "hono": "^4.12.32",
     "sdk-ts": "npm:@pinarkive/pinarkive-sdk-ts@^3.1.0"
   },
   "devDependencies": {
@@ -17,7 +17,7 @@
     "@eslint/js": "^9.22.0",
     "eslint": "^9.22.0",
     "typescript": "^5.8.2",
-    "typescript-eslint": "^8.26.1",
-    "wrangler": "^4.19.0"
+    "typescript-eslint": "^8.65.0",
+    "wrangler": "^4.115.0"
   }
 }
