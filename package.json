@@ -1,7 +1,9 @@
 {
   "name": "starter-hono-workers",
   "version": "0.1.2",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,11 +16,11 @@
     "sdk-ts": "npm:@pinarkive/pinarkive-sdk-ts@^3.1.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250410.0",
+    "@cloudflare/workers-types": "^5.20260901.1",
     "@eslint/js": "^10.0.1",
     "eslint": "^10.9.1",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.69.0",
-    "wrangler": "^4.19.0"
+    "wrangler": "^4.128.0"
   }
 }
