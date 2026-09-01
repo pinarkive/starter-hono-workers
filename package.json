@@ -1,6 +1,7 @@
 {
   "name": "starter-hono-workers",
   "version": "0.1.2",
+  "engines": { "node": ">=20" },
   "private": true,
   "type": "module",
   "scripts": {
