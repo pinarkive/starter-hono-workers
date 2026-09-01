@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "lint": "eslint src --ext .ts"
+    "lint": "eslint src"
   },
   "dependencies": {
     "hono": "^4.7.4",
@@ -14,10 +14,10 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250410.0",
-    "@eslint/js": "^9.22.0",
-    "eslint": "^9.22.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.26.1",
+    "typescript-eslint": "^8.69.0",
     "wrangler": "^4.19.0"
   }
 }
