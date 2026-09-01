@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import type { ContentfulStatusCode } from "hono/utils/http-status";
 import { pageHtml } from "./html";
 import { uploadFileWithPinarkiveSdk } from "./pinarkive";
 
@@ -71,7 +72,7 @@ app.post("/api/upload", async (c) => {
     baseUrlFromEnv,
     clusterId,
   });
-  return c.json(result, httpStatus);
+  return c.json(result, httpStatus as ContentfulStatusCode);
 });
 
 export default app;
